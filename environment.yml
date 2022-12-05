@@ -1,0 +1,9 @@
+name: metagenomics_classification 
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>=3.5
+  - pip:
+    - -r requirements.txt
